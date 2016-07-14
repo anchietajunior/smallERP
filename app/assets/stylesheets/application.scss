@@ -1,1 +1,10 @@
+@import "bootstrap-sprockets";
 @import "bootstrap";
+@import "metisMenu.min";
+@import "timeline";
+@import "sb-admin-2";
+@import "font-awesome";
+
+#page-wrapper {
+	padding-bottom: 40px;
+}
