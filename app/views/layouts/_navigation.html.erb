@@ -18,13 +18,37 @@
             	<% end %>
             </li>
             <li>
-            	<a href="#"><i class="fa fa-wrench fa-fw"></i> Clientes<span class="fa arrow"></span></a>
+            	<a href="#"><i class="fa fa-users fa-fw"></i> Clientes<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
                         <%= link_to 'Listar', customers_path %>
                     </li>
                     <li>
                         <%= link_to 'Novo Cliente', new_customer_path %>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-child fa-fw"></i> Fornecedores<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <%= link_to 'Listar' %>
+                    </li>
+                    <li>
+                        <%= link_to 'Novo Fornecedor' %>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-money fa-fw"></i> Contas<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <%= link_to 'À receber' %>
+                    </li>
+                    <li>
+                        <%= link_to 'À pagar' %>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
